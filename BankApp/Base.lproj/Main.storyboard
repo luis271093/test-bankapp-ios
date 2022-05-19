@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BankApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BankApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTM-uc-eUe">
+                                <rect key="frame" x="100" y="54" width="214" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.68764793718531469" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nb3-hn-NYw">
+                                <rect key="frame" x="0.0" y="85" width="414" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Octavio Martinez" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffz-U6-efR">
+                                        <rect key="frame" x="20" y="10" width="174" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="último Inicio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTh-FS-Cct">
+                                        <rect key="frame" x="214" y="10" width="91.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.80508128510209787" blue="0.60732626749650342" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.38924321695461406" blue="0.55695476398601396" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="aTh-FS-Cct" firstAttribute="leading" secondItem="ffz-U6-efR" secondAttribute="trailing" constant="20" id="F6N-ow-PYD"/>
+                                    <constraint firstItem="aTh-FS-Cct" firstAttribute="top" secondItem="Nb3-hn-NYw" secondAttribute="top" constant="10" id="VBY-8I-mWP"/>
+                                    <constraint firstItem="ffz-U6-efR" firstAttribute="top" secondItem="Nb3-hn-NYw" secondAttribute="top" constant="10" id="Zn3-sZ-YfK"/>
+                                    <constraint firstAttribute="trailing" secondItem="ffz-U6-efR" secondAttribute="trailing" constant="220" id="nCC-5n-KmR"/>
+                                    <constraint firstAttribute="height" constant="50" id="vF0-7E-afp"/>
+                                    <constraint firstItem="ffz-U6-efR" firstAttribute="leading" secondItem="Nb3-hn-NYw" secondAttribute="leading" constant="20" id="ybj-aE-9sv"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5V-yr-Jtx">
+                                <rect key="frame" x="20" y="145" width="104" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="jio-Hm-StD"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Mis Cuentas"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JP4-2M-Z0g">
+                                <rect key="frame" x="134" y="145" width="110" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="cjT-WB-hXj"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Enviar Dinero"/>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gte-Qh-oVf">
+                                <rect key="frame" x="0.0" y="210" width="414" height="150"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="iSJ-WI-rrK"/>
+                                </constraints>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2Y-d4-X4w">
+                                <rect key="frame" x="20" y="380" width="374" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="faG-To-k9N"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="+ Agregar una tarjeta  de credito o debito"/>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rj7-t6-gFH">
+                                <rect key="frame" x="0.0" y="441" width="414" height="150"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="P3t-Np-U5F"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="q2Y-d4-X4w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BbQ-Re-Dof"/>
+                            <constraint firstItem="q2Y-d4-X4w" firstAttribute="top" secondItem="gte-Qh-oVf" secondAttribute="bottom" constant="20" id="F2T-KD-OaX"/>
+                            <constraint firstItem="WTM-uc-eUe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="GvR-h7-A04"/>
+                            <constraint firstItem="JP4-2M-Z0g" firstAttribute="top" secondItem="Nb3-hn-NYw" secondAttribute="bottom" constant="10" id="N93-9g-5r5"/>
+                            <constraint firstItem="WTM-uc-eUe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="PUl-dO-4zG"/>
+                            <constraint firstItem="rj7-t6-gFH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Tju-EU-Wtw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q2Y-d4-X4w" secondAttribute="trailing" constant="20" id="XAi-RR-6Si"/>
+                            <constraint firstItem="Nb3-hn-NYw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Z7f-yZ-uZK"/>
+                            <constraint firstItem="u5V-yr-Jtx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="asd-T5-vgF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WTM-uc-eUe" secondAttribute="trailing" constant="100" id="bSC-J1-5Et"/>
+                            <constraint firstItem="Nb3-hn-NYw" firstAttribute="top" secondItem="WTM-uc-eUe" secondAttribute="bottom" constant="10" id="cxW-8R-JiX"/>
+                            <constraint firstItem="gte-Qh-oVf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jVO-bs-teS"/>
+                            <constraint firstItem="JP4-2M-Z0g" firstAttribute="leading" secondItem="u5V-yr-Jtx" secondAttribute="trailing" constant="10" id="lZs-wC-ffq"/>
+                            <constraint firstItem="rj7-t6-gFH" firstAttribute="top" secondItem="q2Y-d4-X4w" secondAttribute="bottom" constant="30" id="rGx-qP-ekb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rj7-t6-gFH" secondAttribute="trailing" id="teI-Cv-JQi"/>
+                            <constraint firstItem="u5V-yr-Jtx" firstAttribute="top" secondItem="Nb3-hn-NYw" secondAttribute="bottom" constant="10" id="uqF-ht-SP2"/>
+                            <constraint firstItem="gte-Qh-oVf" firstAttribute="top" secondItem="u5V-yr-Jtx" secondAttribute="bottom" constant="30" id="wI3-PI-yj0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nb3-hn-NYw" secondAttribute="trailing" id="ziJ-Gd-Vph"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gte-Qh-oVf" secondAttribute="trailing" id="zuc-K1-ebK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnAgregarTarjeta" destination="q2Y-d4-X4w" id="g1v-gb-hsq"/>
+                        <outlet property="btnCuenta" destination="u5V-yr-Jtx" id="qY6-vO-oNn"/>
+                        <outlet property="btnEnviarDinero" destination="JP4-2M-Z0g" id="XT7-8n-lwk"/>
+                        <outlet property="lblFecha" destination="aTh-FS-Cct" id="thQ-9y-C5m"/>
+                        <outlet property="lblNombre" destination="ffz-U6-efR" id="08P-v4-vkI"/>
+                        <outlet property="lblTitle" destination="WTM-uc-eUe" id="r9D-2W-p4a"/>
+                        <outlet property="tableViewCuenta" destination="rj7-t6-gFH" id="ntT-UW-9LP"/>
+                        <outlet property="tableViewSaldo" destination="gte-Qh-oVf" id="LEb-xY-hdU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="66.964285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
