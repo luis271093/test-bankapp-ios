@@ -13,10 +13,16 @@
 		A0BDDA1E2836A2D500EAA126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BDDA1C2836A2D500EAA126 /* Main.storyboard */; };
 		A0BDDA202836A2D700EAA126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BDDA1F2836A2D700EAA126 /* Assets.xcassets */; };
 		A0BDDA232836A2D700EAA126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BDDA212836A2D700EAA126 /* LaunchScreen.storyboard */; };
-		A0BDDA2C2836A87900EAA126 /* SaldoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDDA2A2836A87900EAA126 /* SaldoTableViewCell.swift */; };
-		A0BDDA2D2836A87900EAA126 /* SaldoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0BDDA2B2836A87900EAA126 /* SaldoTableViewCell.xib */; };
 		A0BDDA302836A89100EAA126 /* TarjetaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDDA2E2836A89100EAA126 /* TarjetaTableViewCell.swift */; };
 		A0BDDA312836A89100EAA126 /* TarjetaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0BDDA2F2836A89100EAA126 /* TarjetaTableViewCell.xib */; };
+		A0BDDA342836C80100EAA126 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDDA322836C80100EAA126 /* CollectionViewCell.swift */; };
+		A0BDDA352836C80100EAA126 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0BDDA332836C80100EAA126 /* CollectionViewCell.xib */; };
+		A0BE25DA2836FAD000B02186 /* CuentaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BE25D92836FAD000B02186 /* CuentaModel.swift */; };
+		A0BE25E42837202400B02186 /* MovimientosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BE25E22837202400B02186 /* MovimientosTableViewCell.swift */; };
+		A0BE25E52837202400B02186 /* MovimientosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0BE25E32837202400B02186 /* MovimientosTableViewCell.xib */; };
+		A0BE25E728372C4800B02186 /* SaldosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BE25E628372C4800B02186 /* SaldosModel.swift */; };
+		A0BE25E928372D6800B02186 /* TarjetaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BE25E828372D6800B02186 /* TarjetaModel.swift */; };
+		A0BE25EB28372E5F00B02186 /* MovimientosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BE25EA28372E5F00B02186 /* MovimientosModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +34,16 @@
 		A0BDDA1F2836A2D700EAA126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BDDA222836A2D700EAA126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0BDDA242836A2D700EAA126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0BDDA2A2836A87900EAA126 /* SaldoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaldoTableViewCell.swift; sourceTree = "<group>"; };
-		A0BDDA2B2836A87900EAA126 /* SaldoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaldoTableViewCell.xib; sourceTree = "<group>"; };
 		A0BDDA2E2836A89100EAA126 /* TarjetaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarjetaTableViewCell.swift; sourceTree = "<group>"; };
 		A0BDDA2F2836A89100EAA126 /* TarjetaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TarjetaTableViewCell.xib; sourceTree = "<group>"; };
+		A0BDDA322836C80100EAA126 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A0BDDA332836C80100EAA126 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		A0BE25D92836FAD000B02186 /* CuentaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaModel.swift; sourceTree = "<group>"; };
+		A0BE25E22837202400B02186 /* MovimientosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovimientosTableViewCell.swift; sourceTree = "<group>"; };
+		A0BE25E32837202400B02186 /* MovimientosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovimientosTableViewCell.xib; sourceTree = "<group>"; };
+		A0BE25E628372C4800B02186 /* SaldosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaldosModel.swift; sourceTree = "<group>"; };
+		A0BE25E828372D6800B02186 /* TarjetaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarjetaModel.swift; sourceTree = "<group>"; };
+		A0BE25EA28372E5F00B02186 /* MovimientosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovimientosModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +79,16 @@
 				A0BDDA162836A2D500EAA126 /* AppDelegate.swift */,
 				A0BDDA182836A2D500EAA126 /* SceneDelegate.swift */,
 				A0BDDA1A2836A2D500EAA126 /* ViewController.swift */,
+				A0BDDA322836C80100EAA126 /* CollectionViewCell.swift */,
+				A0BDDA332836C80100EAA126 /* CollectionViewCell.xib */,
+				A0BE25E22837202400B02186 /* MovimientosTableViewCell.swift */,
+				A0BE25E32837202400B02186 /* MovimientosTableViewCell.xib */,
 				A0BDDA2E2836A89100EAA126 /* TarjetaTableViewCell.swift */,
 				A0BDDA2F2836A89100EAA126 /* TarjetaTableViewCell.xib */,
-				A0BDDA2A2836A87900EAA126 /* SaldoTableViewCell.swift */,
-				A0BDDA2B2836A87900EAA126 /* SaldoTableViewCell.xib */,
+				A0BE25D92836FAD000B02186 /* CuentaModel.swift */,
+				A0BE25E628372C4800B02186 /* SaldosModel.swift */,
+				A0BE25E828372D6800B02186 /* TarjetaModel.swift */,
+				A0BE25EA28372E5F00B02186 /* MovimientosModel.swift */,
 				A0BDDA1C2836A2D500EAA126 /* Main.storyboard */,
 				A0BDDA1F2836A2D700EAA126 /* Assets.xcassets */,
 				A0BDDA212836A2D700EAA126 /* LaunchScreen.storyboard */,
@@ -95,6 +113,8 @@
 			dependencies = (
 			);
 			name = BankApp;
+			packageProductDependencies = (
+			);
 			productName = BankApp;
 			productReference = A0BDDA132836A2D500EAA126 /* BankApp.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +143,8 @@
 				Base,
 			);
 			mainGroup = A0BDDA0A2836A2D500EAA126;
+			packageReferences = (
+			);
 			productRefGroup = A0BDDA142836A2D500EAA126 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,10 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0BDDA232836A2D700EAA126 /* LaunchScreen.storyboard in Resources */,
-				A0BDDA2D2836A87900EAA126 /* SaldoTableViewCell.xib in Resources */,
 				A0BDDA202836A2D700EAA126 /* Assets.xcassets in Resources */,
+				A0BE25E52837202400B02186 /* MovimientosTableViewCell.xib in Resources */,
 				A0BDDA1E2836A2D500EAA126 /* Main.storyboard in Resources */,
 				A0BDDA312836A89100EAA126 /* TarjetaTableViewCell.xib in Resources */,
+				A0BDDA352836C80100EAA126 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,11 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BDDA342836C80100EAA126 /* CollectionViewCell.swift in Sources */,
 				A0BDDA1B2836A2D500EAA126 /* ViewController.swift in Sources */,
-				A0BDDA2C2836A87900EAA126 /* SaldoTableViewCell.swift in Sources */,
+				A0BE25DA2836FAD000B02186 /* CuentaModel.swift in Sources */,
+				A0BE25E728372C4800B02186 /* SaldosModel.swift in Sources */,
 				A0BDDA172836A2D500EAA126 /* AppDelegate.swift in Sources */,
 				A0BDDA192836A2D500EAA126 /* SceneDelegate.swift in Sources */,
+				A0BE25EB28372E5F00B02186 /* MovimientosModel.swift in Sources */,
+				A0BE25E42837202400B02186 /* MovimientosTableViewCell.swift in Sources */,
 				A0BDDA302836A89100EAA126 /* TarjetaTableViewCell.swift in Sources */,
+				A0BE25E928372D6800B02186 /* TarjetaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
